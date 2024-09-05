@@ -1,6 +1,6 @@
 # ESP8266 Relay 1 Channel 30A
 ### Diskripsi
-![](https://github.com/hwthinker/esp8266-relay1ch-30A/blob/main/picture/3.png)
+![](https://github.com/hwthinker/esp8266-relay1ch-30A/blob/main/picture/2.png)
 Proyek ini menggunakan modul ESP8266 untuk mengontrol relay 1-channel 30A dengan konfigurasi GPIO sebagai berikut:
 
 - Relay: GPIO 16 
