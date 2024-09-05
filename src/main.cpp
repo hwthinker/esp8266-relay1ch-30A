@@ -1,7 +1,10 @@
 #include <Arduino.h>
 
+#define relay 16
+#define LEDESP 2
+#define  LEDBoard 5
 // Daftar GPIO output yang dapat digunakan pada ESP8266
-int gpio_pins[] = {0, 1, 2, 3, 4, 5, 12, 13, 14, 15, 16}; 
+int gpio_pins[] = {LEDESP, LEDBoard, relay}; 
 int total_pins = sizeof(gpio_pins) / sizeof(gpio_pins[0]);
 
 void setup() {

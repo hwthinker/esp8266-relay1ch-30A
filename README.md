@@ -1,24 +1,38 @@
-# Modul ESP32 Relay 1 Channel 
-![](https://github.com/hwthinker/esp32-relay1ch/blob/main/picture/1.png)
+# ESP8266 Relay 1 Channel 30A
+### Diskripsi
+Proyek ini menggunakan modul ESP8266 untuk mengontrol relay 1-channel 30A dengan konfigurasi GPIO sebagai berikut:
 
+- Relay: GPIO 16 
+- LED ESP: GPIO 2 
+- LED Board: GPIO 5 
+
+### Deskripsi
+Dalam proyek ini, relay dihubungkan ke pin GPIO 16 dari ESP8266. Harap diperhatikan bahwa relay tidak terhubung secara default ke GPIO 16, sehingga diperlukan jumper untuk menghubungkan relay dengan pin tersebut. Setelah dihubungkan, relay dapat dikontrol secara digital untuk mengaktifkan atau mematikan perangkat yang terhubung dengan kemampuan menangani arus hingga 30A.
+
+LED ESP pada GPIO 2 dan LED pada board di GPIO 5 juga digunakan untuk memberikan indikasi status saat relay aktif atau tidak.
+
+### Fitur
+Mengontrol perangkat berdaya tinggi melalui relay 30A.
+Indikasi status melalui LED ESP dan LED pada board.
+Menggunakan modul ESP8266 dengan koneksi nirkabel untuk kontrol jarak jauh.
 
 ## Cara download dengan jumper
-![](https://github.com/hwthinker/esp32-relay1ch/blob/main/picture/3.png)
+![](https://github.com/hwthinker/esp8266-relay1ch-30A/blob/main/picture/1.png)
 - Pasang serial USB TTL dengan ketentuan: 
    - TX -> RX USB Serial (Kabel Putih)
    - RX -> TX USB Serial (Kabel Hijau)
    - GND -> GND USB Serial (Kabel Hitam)
 - Pastikan supply 9VDC dihubungkan pin VCC; GND Power supply -> GND
-- pasang Jumper untuk menghubungkan IO0 terhubung GND
-- Cabut dan pasang power supply untuk mengaktikan mode download.
+- Tekan dan tahan tombol key
+- Klik (tekan dan lepas) tombol rst(EN) dan pastikan  tombol key(IO0) masih di tekan
+- Lepas tombol Key
 - Download program dan tunggu sampai selesai
-- lepas jumper
-- Cabut dan pasang power supply (jumper harus di lepas) untuk run-program
+- Klik tombol rest untuk run-program (langkah ini penting agar firmware baru dijalankan)
 - ulang langkah awal bila melakukan download ulang lagi
 
 
 ## Cara download dengan Serial USB auto Download
-![](https://github.com/hwthinker/esp32-relay1ch/blob/main/picture/2.png)
+![](https://github.com/hwthinker/esp8266-relay1ch-30A/blob/main/picture/2.png)
 - Pasang serial USB TTL dengan ketentuan:
     - RX Board  -> RX USB Serial  
     - TX Board  -> TX USB Serial 
@@ -29,4 +43,4 @@
 - Download program dan tunggu sampai selesai
 
 ⚠️ Note:
-Anda dapat memilih untuk menggunakan power supply dari salah satu konektor berikut: konektor Micro USB atau konektor Power (berwarna hijau). Namun, Anda tidak bisa menggunakan kedua konektor secara bersamaan."
+Anda dapat memilih untuk menggunakan power supply dari salah satu konektor berikut: konektor Power 9V atau konektor Power 5V. Namun, Anda tidak bisa menggunakan kedua konektor secara bersamaan."
