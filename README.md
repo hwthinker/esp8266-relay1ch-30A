@@ -23,8 +23,8 @@ Menggunakan modul ESP8266 dengan koneksi nirkabel untuk kontrol jarak jauh.
    - RX -> TX USB Serial (Kabel Hijau)
    - GND -> GND USB Serial (Kabel Hitam)
 - Pastikan supply 9VDC dihubungkan pin VCC; GND Power supply -> GND
-- Tekan dan tahan tombol key
-- Klik (tekan dan lepas) tombol rst(EN) dan pastikan  tombol key(IO0) masih di tekan
+- Tekan dan tahan tombol key pada Board
+- Klik (tekan dan lepas) tombol rst(EN) pada board dan pastikan  tombol key(IO0) masih di tekan
 - Lepas tombol Key
 - Download program dan tunggu sampai selesai
 - Klik tombol rest untuk run-program (langkah ini penting agar firmware baru dijalankan)
