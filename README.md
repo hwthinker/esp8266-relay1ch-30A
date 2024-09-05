@@ -1,5 +1,6 @@
 # ESP8266 Relay 1 Channel 30A
 ### Diskripsi
+![](https://github.com/hwthinker/esp8266-relay1ch-30A/blob/main/picture/3.png)
 Proyek ini menggunakan modul ESP8266 untuk mengontrol relay 1-channel 30A dengan konfigurasi GPIO sebagai berikut:
 
 - Relay: GPIO 16 
@@ -17,7 +18,7 @@ Indikasi status melalui LED ESP dan LED pada board.
 Menggunakan modul ESP8266 dengan koneksi nirkabel untuk kontrol jarak jauh.
 
 ## Cara download dengan jumper
-![](https://github.com/hwthinker/esp8266-relay1ch-30A/blob/main/picture/1.png)
+![](https://github.com/hwthinker/esp8266-relay1ch-30A/blob/main/picture/3.png)
 - Pasang serial USB TTL dengan ketentuan: 
    - TX -> RX USB Serial (Kabel Putih)
    - RX -> TX USB Serial (Kabel Hijau)
