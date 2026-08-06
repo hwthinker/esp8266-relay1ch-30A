@@ -138,7 +138,4 @@ void loop() {
 
 
 > [!NOTE]
-> Untuk serial disarankan menggunakan serial auto download
->
-> - https://tokopedia.link/Ml3NIixX6Mb atau
-> - https://shopee.co.id/product/21375728/27056587756/ 
+> Untuk serial disarankan menggunakan modul USB-TTL yang mendukung "auto download" — otomatis mengatur EN/IO0 saat upload sehingga tidak perlu pasang-lepas jumper manual tiap kali upload.
