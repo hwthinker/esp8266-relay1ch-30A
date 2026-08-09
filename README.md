@@ -1,5 +1,22 @@
 # ESP8266 Relay 1 Channel 30A
 
+<!-- hwthinker-store-links -->
+
+## Beli boardnya & tutorial lengkap
+
+**Board yang dipakai di repo ini tersedia di HwThinker Store:**
+
+- [ESP8266 ESP-12F DC7-80/5V 30A Wireless WIFI Single Channel Relay](https://hwthinker.com/produk/b4bfca05-8a34-4223-8453-792c12821f3a)
+
+**Tutorial lengkap — langkah bergambar, troubleshooting, dan kode yang sudah diuji:**
+
+- [ESP8266 Relay 1 Channel 30A — Setup Arduino IDE dan Kontrol Relay](https://hwthinker.com/tutorials/esp8266-relay-1ch-30a)
+
+Butuh bantuan pemasangan? Sapa kami lewat live chat di [hwthinker.com](https://hwthinker.com) — barang dikirim dari Surabaya, sudah diuji sebelum dikemas.
+
+<!-- /hwthinker-store-links -->
+
+
 ![1](./assets/1.png)
 Modul ESP8266 ini  mengontrol relay 1-channel 30A dengan konfigurasi GPIO sebagai berikut:
 - Relay: GPIO 16 
